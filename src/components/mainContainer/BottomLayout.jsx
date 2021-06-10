@@ -6,9 +6,9 @@ function BottomLayout(props) {
     return (
         <>
             <Container id="container2">
-                <Row className="d-flex justify-content-between pl-3 mb-5">
-                    <Col md={4}>Upcoming Shows </Col>
-                    <Col md={1}>View all</Col>
+                <Row className="d-flex justify-content-between pl-3 mb-3">
+                    <Col md={4} id="headingLeft">Upcoming Shows </Col>
+                    <Col md={1} id="headingRight">View all</Col>
                 </Row>
                 <Row className = "pl-2">
                     <Col>
@@ -21,10 +21,25 @@ function BottomLayout(props) {
                                 <Card.Title id="singerTitle">Benny Dayal</Card.Title>
                                 <div className="d-flex justify-content-between">
                                     <span>
-                                        More Info
+                                        <div className="d-flex justify-content-between">
+                                            <div id="moveMore">
+                                                More
+                                            </div>
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="#E75480" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                       
                                     </span>
                                     <span>
-                                        list
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E75480" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                                        <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                                        <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                                        <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                                        <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                                    </svg>
                                     </span>
                                 </div>
                             </Card.Body>
@@ -40,10 +55,25 @@ function BottomLayout(props) {
                                 <Card.Title id="singerTitle">Vijay Yesudas</Card.Title>
                                 <div className="d-flex justify-content-between">
                                     <span>
-                                        More Info
+                                        <div className="d-flex justify-content-between">
+                                            <div id="moveMore">
+                                                More
+                                            </div>
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="#E75480" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                       
                                     </span>
                                     <span>
-                                        list
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E75480" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                                        <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                                        <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                                        <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                                        <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                                    </svg>
                                     </span>
                                 </div>
                             </Card.Body>
@@ -59,10 +89,25 @@ function BottomLayout(props) {
                                 <Card.Title id="singerTitle">Andrea Jeremiah</Card.Title>
                                 <div className="d-flex justify-content-between">
                                     <span>
-                                        More Info
+                                        <div className="d-flex justify-content-between">
+                                            <div id="moveMore">
+                                                More
+                                            </div>
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="#E75480" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                       
                                     </span>
                                     <span>
-                                        list
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E75480" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                                        <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                                        <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                                        <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                                        <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                                    </svg>
                                     </span>
                                 </div>
                             </Card.Body>
@@ -78,10 +123,25 @@ function BottomLayout(props) {
                                 <Card.Title id="singerTitle">Shilpa Rao</Card.Title>
                                 <div className="d-flex justify-content-between">
                                     <span>
-                                        More Info
+                                        <div className="d-flex justify-content-between">
+                                            <div id="moveMore">
+                                                More
+                                            </div>
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="#E75480" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                       
                                     </span>
                                     <span>
-                                        list
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E75480" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                                        <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                                        <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                                        <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                                        <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                                    </svg>
                                     </span>
                                 </div>
                             </Card.Body>
@@ -91,15 +151,19 @@ function BottomLayout(props) {
             </Container>
 
             <Container id="container2">
-                <Row className="d-flex justify-content-between pl-3 mb-5">
-                    <Col md={4}>Reviews </Col>
-                    <Col md={3} >
+                <Row className="d-flex justify-content-between pl-3 mb-3">
+                    <Col md={4} id="headingLeft">Reviews </Col>
+                    <Col md={2} >
                         1/ 12
-                        <Button variant="primary">
-                                -=
+                        <Button id="noneStyle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                            </svg>
                         </Button>
-                        <Button variant="primary">
-                                --
+                        <Button id="noneStyle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
                         </Button>
                     </Col>
                 </Row>

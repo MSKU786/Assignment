@@ -16,7 +16,15 @@ body {
   z-index: 0;
 }
 
+#iconPlayer{
+  color: pink;
 
+}
+
+
+#icon{
+  color: white;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

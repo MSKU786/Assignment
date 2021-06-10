@@ -7,6 +7,7 @@
 
 #container2{
   margin-top: 150px;
+  margin-bottom: 200px;
 }
 
 #headingContainer{
@@ -84,6 +85,7 @@
 }
 
 #commentCard{
+    cursor: pointer;
     background-color: #0C1027;
     border: 2px solid yellow;
     border-radius: 5%;
@@ -101,7 +103,28 @@
 }
 
 #singerCard{
+    cursor: pointer;
     background-color: #151c42;
     border-radius: 5%;
     box-shadow:  8px -8px rgba(53, 55, 177, 0.6);
+}
+
+
+#headingLeft{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#noneStyle{
+    border: none;
+    background-color: #0C1027;
+}
+
+#moveMore{
+    font-size: 16px;
+    color: skyblue
+}
+#moveMore:hover{
+    color: yellow;
+    margin-right: 20px;
 }
