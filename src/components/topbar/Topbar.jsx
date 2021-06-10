@@ -12,10 +12,10 @@ function Topbar(props) {
             <Navbar.Brand className="ml-4">Image</Navbar.Brand>
           </Nav>
           <Nav>
-            <Nav.Link className="mr-4" >  Search </Nav.Link>
-            <Nav.Link className="mr-4">Help</Nav.Link>
-            <Nav.Link className="mr-4">  Account </Nav.Link>
-            <Nav.Link className="mr-5"> </Nav.Link>
+            <Nav.Link className="mr-4 text-white" >  Search </Nav.Link>
+            <Nav.Link className="mr-4 text-white">Help</Nav.Link>
+            <Nav.Link className="mr-4 text-white">  Account </Nav.Link>
+            <Nav.Link className="mr-5 text-white"> </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

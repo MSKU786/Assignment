@@ -5,53 +5,53 @@ import BottomLayout from './BottomLayout';
 
 function Main(props) {
     return (
-        <div>
-            <div className="container m-5 w-50">
-                <h1 className="display-4 m-5">Cari Cari</h1>
-                <h5 className="m-5">Life from you sofa to yours. Get Closer to your favourite artists, and never miss out</h5>
+        <>
+            <div className="container m-5 w-50" id="headingContainer">
+                <h1 >Cari Cari</h1>
+                <h5 >Life from you sofa to yours. Get Closer to your favourite artists, and never miss out</h5>
             </div>
             <Container id="containerMiddle" >
                 <Row className = "pl-5 ">
                     <Col>
-                        <Card style={{ width: '200px', height: '200px' }} className="rounded-circle border-danger">
-                            <ListGroup style={{ width: '100px', height: '150px' }}className="list-group-flush mt-3 ml-5 ">
-                                <ListGroupItem className="border-0 d-flex justify-content-center">Heart</ListGroupItem>
-                                <ListGroupItem className="border-0 d-flex justify-content-center">0</ListGroupItem>
-                                <ListGroupItem className="border-0 d-flex justify-content-center">Label</ListGroupItem>
+                        <Card  className="rounded-circle " id="likeContainer">
+                            <ListGroup className="list-group-flush mt-3 ml-5 " id="listLikeContainer" >
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">Heart</ListGroupItem>
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">0</ListGroupItem>
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">Label</ListGroupItem>
                             </ListGroup>
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '200px', height: '200px' }} className="rounded-circle border-">
-                            <ListGroup style={{ width: '100px', height: '150px' }} className="list-group-flush m-3 ml-5">
-                                <ListGroupItem className="border-0 d-flex justify-content-center">Heart</ListGroupItem>
-                                <ListGroupItem className="border-0 d-flex justify-content-center">0</ListGroupItem>
-                                <ListGroupItem className="border-0 d-flex justify-content-center">Label</ListGroupItem>
+                        <Card  className="rounded-circle " id="likeContainer">
+                            <ListGroup className="list-group-flush mt-3 ml-5 " id="listLikeContainer" >
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">Heart</ListGroupItem>
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">0</ListGroupItem>
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">Label</ListGroupItem>
                             </ListGroup>
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '200px', height: '200px' }} className="rounded-circle">
-                            <ListGroup style={{ width: '100px', height: '150px' }} className="list-group-flush m-3 ml-5">
-                                <ListGroupItem className="border-0 d-flex justify-content-center">Heart</ListGroupItem>
-                                <ListGroupItem className="border-0 d-flex justify-content-center">0</ListGroupItem>
-                                <ListGroupItem className="border-0 d-flex justify-content-center">Label</ListGroupItem>
+                        <Card  className="rounded-circle " id="likeContainer">
+                            <ListGroup className="list-group-flush mt-3 ml-5 " id="listLikeContainer" >
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">Heart</ListGroupItem>
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">0</ListGroupItem>
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">Label</ListGroupItem>
                             </ListGroup>
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '200px', height: '200px' }} className="rounded-circle">
-                            <ListGroup style={{ width: '100px', height: '150px' }} className="list-group-flush m-3 ml-5">
-                                <ListGroupItem className="border-0 d-flex justify-content-center">Heart</ListGroupItem>
-                                <ListGroupItem className="border-0 d-flex justify-content-center">0</ListGroupItem>
-                                <ListGroupItem className="border-0 d-flex justify-content-center">Label</ListGroupItem>
+                        <Card  className="rounded-circle " id="likeContainer">
+                            <ListGroup className="list-group-flush mt-3 ml-5 " id="listLikeContainer" >
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">Heart</ListGroupItem>
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">0</ListGroupItem>
+                                <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">Label</ListGroupItem>
                             </ListGroup>
                         </Card>
                     </Col>
                 </Row>
             </Container>
-            <BottomLayout />
-        </div>
+
+        </>
     );
 }
 
