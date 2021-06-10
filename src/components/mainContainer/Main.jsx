@@ -1,6 +1,7 @@
 import React from 'react';
 import "./main.css";
 import { Card, Col, Container, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
+import BottomLayout from './BottomLayout';
 
 function Main(props) {
     return (
@@ -9,7 +10,7 @@ function Main(props) {
                 <h1 className="display-4 m-5">Cari Cari</h1>
                 <h5 className="m-5">Life from you sofa to yours. Get Closer to your favourite artists, and never miss out</h5>
             </div>
-            <Container id="container" >
+            <Container id="containerMiddle" >
                 <Row className = "pl-5 ">
                     <Col>
                         <Card style={{ width: '200px', height: '200px' }} className="rounded-circle border-danger">
@@ -49,6 +50,7 @@ function Main(props) {
                     </Col>
                 </Row>
             </Container>
+            <BottomLayout />
         </div>
     );
 }
