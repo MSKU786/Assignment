@@ -12,7 +12,7 @@ function Main(props) {
             </div>
             <Container id="containerMiddle" >
                 <Row className = "pl-5 ">
-                    <ListGroup horizontal id="listGroup">
+                    <ListGroup horizontal id="listGroupMain">
                         <ListGroup.Item id="listGroupItemMain">
                             <Card  className="rounded-circle " id="likeContainer">
                                 <ListGroup className="list-group-flush mt-3 ml-5 " id="listLikeContainer" >
@@ -26,7 +26,7 @@ function Main(props) {
                                 </ListGroup>
                             </Card>
                         </ListGroup.Item>
-                        <ListGroup.Item id="listGroupItem">
+                        <ListGroup.Item id="listGroupItemMain">
                         <Card  className="rounded-circle " id="likeContainer">
                             <ListGroup className="list-group-flush mt-3 ml-5 " id="listLikeContainer" >
                                 <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">
@@ -39,7 +39,7 @@ function Main(props) {
                             </ListGroup>
                         </Card>
                         </ListGroup.Item>
-                        <ListGroup.Item id="listGroupItem">
+                        <ListGroup.Item id="listGroupItemMain">
                         <Card  className="rounded-circle " id="likeContainer">
                             <ListGroup className="list-group-flush mt-3 ml-5 " id="listLikeContainer" >
                                 <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">
@@ -52,7 +52,7 @@ function Main(props) {
                             </ListGroup>
                         </Card>
                         </ListGroup.Item>
-                        <ListGroup.Item id="listGroupItem">
+                        <ListGroup.Item id="listGroupItemMain">
                         <Card  className="rounded-circle " id="likeContainer">
                             <ListGroup className="list-group-flush mt-3 ml-5 " id="listLikeContainer" >
                                 <ListGroupItem className="border-0 d-flex justify-content-center" id="listLikeContent">

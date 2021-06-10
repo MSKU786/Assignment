@@ -21,6 +21,11 @@ body {
 
 }
 
+#dropdown-basic{
+  background-color: #0C1027;
+  color: white;
+  border: none;
+}
 
 #icon{
   color: white;

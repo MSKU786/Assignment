@@ -44,8 +44,10 @@
     border: 2px solid palevioletred;
     cursor: pointer;
 }
+
 #listGroupItemMain{
     background-color: #11ffee00;;
+    border-radius: 50%;
     border: none;
 }
 #listLikeContainer{
