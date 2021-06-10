@@ -1,6 +1,7 @@
 #containerMiddle {
   margin-top: 300px;    
   opacity: 1;
+
 }
 
 
@@ -8,6 +9,8 @@
 #container2{
   margin-top: 150px;
   margin-bottom: 200px;
+
+  flex-shrink: 1;
 }
 
 #headingContainer{
@@ -39,12 +42,17 @@
     opacity: 1;
     background-color: #0C1027;
     border: 2px solid palevioletred;
+    cursor: pointer;
 }
-
+#listGroupItemMain{
+    background-color: #11ffee00;;
+    border: none;
+}
 #listLikeContainer{
     height: 150px;
     width: 100px;
     background-color: #0C1027;;
+    background-color: transparent;
     color: white !important;
 }
 
@@ -97,6 +105,8 @@
     border: none;
 }
 
+
+
 #listGroupItem{
     background-color: #0C1027 ;
     border: none;
@@ -127,4 +137,9 @@
 #moveMore:hover{
     color: yellow;
     margin-right: 20px;
+}
+
+@media screen and (max-width: 800px)
+{
+
 }
